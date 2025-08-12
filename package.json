@@ -1,13 +1,10 @@
 {
-  "name": "legacy-app-documentation",
-  
+  "name": "documentation",
+  "private": true,
   "scripts": {
-    "docs:dev": "npx vitepress dev documentation",
-    "docs:build": "node documentation/build.mjs",
-    "docs:preview": "npx vitepress preview documentation"
+    "docs:dev": "npx vitepress dev .",
+    "docs:build": "node build.mjs",
+    "docs:preview": "npx vitepress preview ."
   },
-  "devDependencies": {
-    "vitepress": "1.6.4"
-  },
-  "engines": { "node": ">=18" }
+  "devDependencies": { "vitepress": "1.6.4" }
 }

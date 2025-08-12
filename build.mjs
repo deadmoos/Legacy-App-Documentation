@@ -1,7 +1,6 @@
-// documentation/build.mjs
-import { resolve } from 'node:path';
-import { build } from 'vitepress';
+// Run from inside "documentation" folder
+import { resolve } from 'node:path'
+import { build } from 'vitepress'
 
-const siteRoot = resolve(process.cwd(), 'documentation'); // folder that contains .vitepress/config.js
-await build({ srcDir: siteRoot });
-
+const root = resolve(process.cwd())   // -> absolute path to ./documentation
+await build(root)                     // <-- pass a STRING root, not { srcDir: ... }
