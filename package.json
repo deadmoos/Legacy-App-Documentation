@@ -4,18 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "docs:dev": "node node_modules/vitepress/bin/vitepress.js dev documentation",
-      "docs:build": "node node_modules/vitepress/bin/vitepress.js build documentation",
-      "docs:preview": "node node_modules/vitepress/bin/vitepress.js preview documentation"
-    },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "vitepress": "^1.6.4"
-  },
-  "engines": {
-    "node": ">=18"
   }
 }

@@ -1,6 +1,7 @@
 // documentation/.vitepress/config.js
 export default {
   srcDir: 'docs', // tell VitePress that pages live under /documentation/docs
+  cleanUrls: true,
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
