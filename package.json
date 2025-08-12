@@ -1,13 +1,19 @@
 {
-  "name": "legacy-app-documentation",
-  "private": true,
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "docs:dev": "npx vitepress dev documentation",
-    "docs:build": "node documentation/build.mjs",
-    "docs:preview": "npx vitepress preview documentation"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "devDependencies": {
-    "vitepress": "1.6.4"
-  },
-  "engines": { "node": ">=18" }
+    "vitepress": "^1.6.4"
+  }
 }
