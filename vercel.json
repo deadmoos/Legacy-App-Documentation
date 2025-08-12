@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run docs:build",
-  "outputDirectory": "documentation/.vitepress/dist",
+  "outputDirectory": ".vitepress/dist",
   "cleanUrls": true,
   "rewrites": [
     { "source": "/:path((?!.*\\.).*)", "destination": "/:path.html" },

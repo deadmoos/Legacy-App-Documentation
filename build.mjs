@@ -1,6 +1,5 @@
-// Run from inside "documentation" folder
-import { resolve } from 'node:path'
-// documentation/build.mjs
 import { build } from 'vitepress';
-// Site root is the current folder (documentation/)
-await build({ srcDir: '.' });
+
+// Site root is current folder (documentation/). 
+// Your config has srcDir: 'docs', so content is under documentation/docs
+await build('.');

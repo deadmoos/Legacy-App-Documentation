@@ -6,5 +6,8 @@
     "docs:build": "node build.mjs",
     "docs:preview": "npx vitepress preview ."
   },
-  "devDependencies": { "vitepress": "1.6.4" }
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  },
+  "engines": { "node": ">=18" }
 }
