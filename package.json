@@ -1,6 +1,6 @@
 {
   "name": "legacy-app-documentation",
-  "private": true,
+  
   "scripts": {
     "docs:dev": "npx vitepress dev documentation",
     "docs:build": "node documentation/build.mjs",
