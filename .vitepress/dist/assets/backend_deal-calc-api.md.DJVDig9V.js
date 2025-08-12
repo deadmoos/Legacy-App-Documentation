@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as c}from"./chunks/framework.Cd-3tpCq.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"backend/deal-calc-api.md","filePath":"backend/deal-calc-api.md"}'),t={name:"backend/deal-calc-api.md"};function n(r,d,o,s,l,p){return c(),e("div")}const m=a(t,[["render",n]]);export{_ as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Cd-3tpCq.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"frontend/email-module.md","filePath":"frontend/email-module.md"}'),o={name:"frontend/email-module.md"};function n(r,d,m,s,c,l){return a(),t("div")}const p=e(o,[["render",n]]);export{f as __pageData,p as default};
